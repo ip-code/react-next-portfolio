@@ -1,6 +1,6 @@
 This project was bootstrapped with [TypeScript Next.js example](https://github.com/zeit/next.js/tree/canary/examples/with-typescript).
 
-[Live demo](https://ip-code.github.io/react-portfolio)
+[Live demo](https://react-nextjs-portfolio.now.sh/)
 
 ## Packages:
 

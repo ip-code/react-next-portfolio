@@ -16,6 +16,7 @@ const Layout: React.FunctionComponent<Props> = ({
       <title>{title}</title>
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/favicon.ico" />
+      <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'></link>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
@@ -25,12 +26,8 @@ const Layout: React.FunctionComponent<Props> = ({
           <a>Home</a>
         </Link>{' '}
         |{' '}
-        <Link href="/about">
+        <Link href="/projects">
           <a>About</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/users">
-          <a>Users List</a>
         </Link>
       </nav>
     </header>
@@ -125,7 +122,7 @@ a:visited {
       </style>
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>&copy; IP Code</span>
     </footer>
   </div>
 )

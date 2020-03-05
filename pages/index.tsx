@@ -4,17 +4,16 @@ import { NextPage } from 'next'
 
 const IndexPage: NextPage = () => {
   return (
-    <Layout title="IP Code - Home">
+    <Layout title="IP Code">
           <h3>Ip Code</h3>
           <p className="location">
-            <i className="fas fa-map-marker-alt"></i>
-            Solar system, Earth
+            <i className="fa fa-map-marker"></i> Solar system, Earth
           </p>
           <p className="email">
-            <i className="fas fa-envelope"></i>
-            ip-code@spacemail.com
+            <i className="fa fa-envelope"></i> ip-code@spacemail.com
           </p>
           <p>Developer Trainee</p>
+          
     </Layout>
   )
 }
